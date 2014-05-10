@@ -1,19 +1,23 @@
 *{
+	position: relative;
 	font-family: arial, sans-serif;
-}#navbar {
-	position: absolute;
+}
+
+#navbar {
 	top: 0;
 	width: 100%;
-	height: 2.5em;
+	height: 4em;
 }
 
 #signin {
-	margin-top: 0.5em;
+	margin-top: 15px;
+	margin-right: 30px;
+	padding: 7.5px 15px;
 	background-color: #0266C8;
-	padding: 0.25em 0.3em;
-	font-size: 11pt;
+	text-align: center;
+	font-size: 10pt;
 	color: #FFF;
-	font-weight: normal;
+	font-weight: 600;
 }
 
 ul {
@@ -24,9 +28,9 @@ ul {
 }
 
 li {
-	height: 100%;
-	margin-top: 5px;
-	padding: 0.125em;
+	line-height: 4em;
+	margin-top: 50%;
+	/*padding: 0.125em;*/
 	display: inline;
 	float: right;
 	font-size: 10pt;
@@ -39,22 +43,8 @@ a {
 	width: 45px;
 }
 
-#search_button {
-	height: 50px;
-	width: 100px;
-	position: absolute;
-	right: 50%;
-	margin-right: -50px;
-	top: 50%;
-	margin-top: -25px;
-	border: 2px solid #777;
-	border-radius: 2px;
-	padding: 2px;
-	background-color: grey;
-}
-
-#search_button:hover {
-	box-shadow: 0 0 2px #777;
+a:hover {
+	text-decoration: underline;
 }
 
 p {
