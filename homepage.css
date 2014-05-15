@@ -72,17 +72,18 @@ li {
     line-height: 3em;
 }
 
-a {
+#navbar a {
 	text-decoration: none;
 	color: #333;
 	display: block;
-}
-
-#navbar a {
 	width: 50px;
 }
 
-a:hover {
+a {
+	text-decoration: none;
+}
+
+#navbar a, #footer a:hover {
 	text-decoration: underline;
 }
 
@@ -139,4 +140,30 @@ p {
 }
 
 #button_container {
+	text-align: center;
+	width: 575px;
+	/*height: auto;*/
+	margin-right:auto;
+	margin-left: auto;
 }
+
+
+#search_button, #flucky {
+	display: inline-block;
+	padding: 7.5px 10px;
+	background-color: #EEE;
+	color: #222;
+	font-size: 8pt;
+	font-weight: bold;
+	border: 1px solid #CCC;
+}
+
+/*#search_button {
+	float: right;
+	margin-right: 60%; 
+}
+
+#flucky {
+	float: left;
+	margin-left: 55%;
+}*/
