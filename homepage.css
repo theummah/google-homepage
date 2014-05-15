@@ -83,7 +83,7 @@ a {
 	text-decoration: none;
 }
 
-#navbar a, #footer a:hover {
+#navbar a:hover, #footer a:hover {
 	text-decoration: underline;
 }
 
@@ -127,7 +127,7 @@ p {
 	margin-top: 2em;
 	width: 575px;
 	height: 28px;
-	border: 1px solid #EEE;
+	border: 1px solid #CCC;
 	font-size: 12pt;
 }
 
@@ -149,6 +149,7 @@ p {
 
 
 #search_button, #flucky {
+	margin-top: 15px;
 	display: inline-block;
 	padding: 7.5px 10px;
 	background-color: #EEE;
@@ -158,12 +159,8 @@ p {
 	border: 1px solid #CCC;
 }
 
-/*#search_button {
-	float: right;
-	margin-right: 60%; 
+#search_button:hover, #flucky:hover {
+	background-color: #EDEFF2;
+	border: 1px solid #BBB;
+	box-shadow: 0 0 1px #777;
 }
-
-#flucky {
-	float: left;
-	margin-left: 55%;
-}*/
