@@ -111,11 +111,27 @@ p {
     border-top: 1px solid #DDD;
 }
 
-#logo {
-    width: 269px;
-    height: 95px;
+#logo, #search_bar {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10em;
+}
+
+#logo {
+    width: 269px;
+    height: 95px;
+	margin-top: 10em;
+}
+#search_bar {
+	margin-top: 1em;
+	width: 575px;
+	height: 28px;
+	border: 1px solid #EEE;
+}
+
+#search_bar:hover {
+	border-color: #AAA;
+}
+
+#button_container {
 }
