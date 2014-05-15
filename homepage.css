@@ -123,14 +123,19 @@ p {
 	margin-top: 10em;
 }
 #search_bar {
-	margin-top: 1em;
+	margin-top: 2em;
 	width: 575px;
 	height: 28px;
 	border: 1px solid #EEE;
+	font-size: 12pt;
 }
 
 #search_bar:hover {
 	border-color: #AAA;
+}
+
+#search_bar:focus {
+	border-color: #4285F4;
 }
 
 #button_container {
