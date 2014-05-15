@@ -151,16 +151,17 @@ p {
 #search_button, #flucky {
 	margin-top: 15px;
 	display: inline-block;
-	padding: 7.5px 10px;
+	padding: 7px 10px;
 	background-color: #EEE;
 	color: #222;
 	font-size: 8pt;
 	font-weight: bold;
 	border: 1px solid #CCC;
+	border-radius: 1px;
 }
 
 #search_button:hover, #flucky:hover {
 	background-color: #EDEFF2;
 	border: 1px solid #BBB;
-	box-shadow: 0 0 1px #777;
+	box-shadow: -0.5px 0.5px 1px 0 #AAA;
 }
