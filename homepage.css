@@ -82,7 +82,6 @@ a {
 	width: 50px;
 }
 
-
 a:hover {
 	text-decoration: underline;
 }
@@ -110,4 +109,13 @@ p {
     height: 3em;
     background-color: #EEE;
     border-top: 1px solid #DDD;
+}
+
+#logo {
+    width: 269px;
+    height: 95px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
 }
